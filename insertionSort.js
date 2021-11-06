@@ -24,6 +24,12 @@ function reversedInsertionSort(arr) {
 }
 
 let array = [3, 1, 4, 2, 5];
-console.log("array: " + array);
-console.log("ascending order: " + insertionSort(array));
-console.log("descending order: " + reversedInsertionSort(array));
+
+console.log("array: ");
+console.log(array);
+
+console.log("ascending order: ");
+console.log(insertionSort(array));
+
+console.log("descending order: ");
+console.log(reversedInsertionSort(array));
